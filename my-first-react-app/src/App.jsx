@@ -5,14 +5,18 @@ import "./App.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './components/header/header'
 import Main from './components/main/main'
+import Home from "./components/home/home";
+import Contacts from "./components/contact/contacts";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Header/>
-      <Main/>
+      {/* <Header/>
+      <Main/> */}
+      {/* <Contacts/> */}
+      <Home/>
     </>
   );
 }
